@@ -4,8 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>survey_form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div id="mainContainer">
+        <div id="firstContainer">
+            <h1 id="title">NET<span>FLIX</span></h1>
+            <p class="paraf">Thank you for singing up at Netflix. Tell us more about yourself..</p>
+        </div>
+        <div id="secondContainer">
+            <form action="">
+                <div>
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <br>
+                <div>
+                    <label for="age">Age</label>
+                    <br>
+                    <input type="number" id="age" placeholder="Age">
+                </div>
+                <br>
+                <div>
+                    <label for="mail">Email</label>
+                    <br>
+                    <input type="email" id="mail" placeholder="Enter your email">
+                </div>
+                <br>
+                <div>
+                    <label for="contentType">Content Type</label>
+                        <br>
+                    <select id="contentType">
+                        <option value=""></option>
+                        <option value="">TV Series</option>
+                        <option value="">Movies</option>
+                </select>
+                </div>
+                <br>
+                <div>
+                    <p>Movie Type</p>
+                    <input type="checkbox" id="comedy">
+                    <label for="comedy">Comedy</label>
+                    <br>
+                    <input type="checkbox" id="action">
+                    <label for="action">Action</label>
+                    <br>
+                    <input type="checkbox" id="romance">
+                    <label for="romance">Romance</label>
+                </div>
+                <br>
+                <div>
+                    <p>Gender</p>
+                    <input type="radio" id="gender1" name="cinsiyet">
+                    <label for="gender1">Male</label>
+                    <br>
+                    <input type="radio" id="gender2" name="cinsiyet">
+                    <label for="gender2">Female</label>
+                    <br>
+                    <input type="radio" id="gender3" name="cinsiyet">
+                    <label for="gender3">Other</label>
+                </div>
+                <br>
+                <div>
+                    <label for="texArea">FeedBack</label>
+                    <br>
+                    <textarea name="" id="" placeholder="Any comment"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </div>
     
 </body>
 </html>

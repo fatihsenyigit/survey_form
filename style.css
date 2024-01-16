@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./background_image.jpg);
+    color: white;
+}
+
+span {
+    color: red;
+}
+
+#mainContainer {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#firstContainer {
+    margin: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#secondContainer {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    padding: 20px;
+}
