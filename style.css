@@ -84,7 +84,7 @@ h1 {
     min-height: 30px;
     max-height: 60%;
     height:100%;
-    width:100%;
+    width:100%;                      
 }
 
 textarea {
@@ -120,5 +120,13 @@ textarea {
 
 .submitBtn {
     text-align: center;
+}
+
+input[type='checkbox'] {
+    accent-color: rgb(184, 219, 57);
+}
+
+input[type='radio'] {
+    accent-color: red;
 }
 
